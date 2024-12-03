@@ -1,6 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Parkinsans", sans-serif;
+}
 .bg-color{
     background: linear-gradient(to top, #4e3725, #2d1b14);
 }
-.icon-boton{
-    border-color: white;
+.text-color{
+    color: #4e3725;
+    font-weight: bold;
+}
+.hover-link:hover{
+    border-bottom: 1px solid white;
+}
+.btn-des{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #4e3725;
+    color: white;
+
+}
+.btn-des:hover{
+    background-color: #2d1b14;
+    color: white;
+}
+
+.bg-nosotros{
+    background: linear-gradient(to top, #4e3725, #2d1b14);
+}
+.bg-footer{
+    background: linear-gradient(to top, #4e3725, #2d1b14);
 }
